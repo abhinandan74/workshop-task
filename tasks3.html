@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Patient Appointment Form</title>
+</head>
+<body>
+
+<h1>Patient Appointment Form</h1>
+
+<form>
+<table cellspacing="10" >
+
+<tr>
+<td>Full Name:</td>
+<td><input type="text" name="full_name" placeholder="Enter Full Name"></td>
+</tr>
+
+<tr>
+<td>Age:</td>
+<td><input type="number" name="age" placeholder="Age"></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+</td>
+</tr>
+
+<tr>
+<td>Phone Number:</td>
+<td><input type="tel" name="phone" placeholder="Phone Number"></td>
+</tr>
+
+<tr>
+<td>Address:</td>
+<td><textarea name="address" rows="2" placeholder="Enter your address"></textarea></td>
+</tr>
+
+<tr>
+<td>Appointment Date:</td>
+<td><input type="date" name="appointment_date"></td>
+</tr>
+
+<tr>
+<td>Appointment Time:</td>
+<td><input type="time" name="appointment_time"></td>
+</tr>
+
+<tr>
+<td>Doctor Name:</td>
+<td>
+<select name="doctor">
+<option value="">Select Doctor</option>
+<option value="dr-sharma">Dr. Sharma</option>
+<option value="dr-verma">Dr. Verma</option>
+<option value="dr-khan">Dr. Khan</option>
+<option value="dr-sen">Dr. Sen</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Department:</td>
+<td>
+<select name="department">
+<option value="">Select Department</option>
+<option value="general">General Medicine</option>
+<option value="cardiology">Cardiology</option>
+<option value="dermatology">Dermatology</option>
+<option value="orthopedic">Orthopedic</option>
+<option value="pediatrics">Pediatrics</option>
+<option value="neurology">Neurology</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Reason for Visit:</td>
+<td><textarea name="reason" rows="4" cols="50" placeholder="Describe your problem"></textarea></td>
+</tr>
+
+</table>
+
+<br>
+
+<input type="submit" value="Book Appointment">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
